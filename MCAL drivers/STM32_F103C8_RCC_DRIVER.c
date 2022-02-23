@@ -2,7 +2,7 @@
  * STM32_F103C6_RCC_DRIVER.c
  *
  *  Created on: Feb 20, 2022
- *      Author: Mostafa Mahmoud Elshiekh
+ *  Author: Mostafa Mahmoud Elshiekh
  */
 
 
