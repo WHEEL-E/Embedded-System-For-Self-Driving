@@ -1,11 +1,7 @@
 /*
  * STM32F103C8_GPIO_DRIVER.h
  *
-<<<<<<< HEAD
- *  Created on: Feb 12, 2021
-=======
  *  Created on: Feb 12, 2022
->>>>>>> 40347dcdd48e0a7ccba48ffb7ec8e627a50b7da8
  *      Author: Mostafa Mahmoud Elshiekh
  */
 
