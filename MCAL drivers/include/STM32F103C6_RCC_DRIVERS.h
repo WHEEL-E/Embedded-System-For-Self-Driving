@@ -5,11 +5,11 @@
  *      Author: Mostafa Mahmoud Elshiekh
  */
 
-#ifndef INClLUDE_STM32F103C8_RCC_DRIVER_H_
+#ifndef INClUDE_STM32F103C8_RCC_DRIVER_H_
 #define INCLUDE_STM32F103C8_RCC_DRIVER_H_
 
 
-//includes
+//include
 #include "STM32_F103C8.h"
 #include "STM32F103C8_GPIO_DRIVER.h"
 
