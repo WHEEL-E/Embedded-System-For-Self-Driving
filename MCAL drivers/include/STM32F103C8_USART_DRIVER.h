@@ -86,8 +86,8 @@ typedef struct
 /*@Ref USART_StopBits_define*/
 #define USART_StopBits_1             		(uint32_t)(0b00<<12)
 #define USART_StopBits_hafe           		(uint32_t)(0b01<<12)
-#define USART_StopBits_2                    (uint32_t)(0b10<<12)
-#define USART_StopBits_1_hafe               (uint32_t)(0b11<<12)
+#define USART_StopBits_2                    	(uint32_t)(0b10<<12)
+#define USART_StopBits_1_hafe               	(uint32_t)(0b11<<12)
 
 
 
