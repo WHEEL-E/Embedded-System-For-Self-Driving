@@ -14,15 +14,14 @@ float Count_End_Vlaue=0;
 float Puls_width=0;
 
 
-//we need move the delay function from timer2 to timer1 to relase timer2 for RTOS
 /*==============================APIs================================*/
 
 /*========================Timer2 For Delay========================*/
 void Timer2_init(void)
 {
-	RCC_APB1ENR |=(1<<0);     //Enable Rcc for tim2
+	RCC_APB1ENR |=(1<<0);     //Enable Rcc for timer2
 	TIM2_PSC = 7;             //Clk_input=(8M/(7+1))=1MHZ
-	TIM2_ARR = 0xFFFF;        //to make interrupt after 50000 tike(50000*10^-6)=0.05-->20*0.05=1
+	TIM2_ARR = 0xC350;        //to make interrupt after 50000 tike(50000*10^-6)=0.05-->20*0.05=1
 	TIM2_CR1 |=(1<<0);
 	while(!(TIM2_SR)&(1<<0));
 }
@@ -46,9 +45,9 @@ void Delay_ms(int ms)
 /*=====================Timer3 For UltrasonicSensor====================*/
 void Timer3_init(void)
 {
-	RCC_APB1ENR |=(1<<1);    //Enable Rcc for tim1
+	RCC_APB1ENR |=(1<<1);    //Enable Rcc for timer3
 	TIM3_PSC = 7;            //Clk_input=(8M/(7+1))=1MHZ
-	TIM3_ARR = 0xFFFF;        //to make interrupt after 50000 tike(50000*10^-6)=0.05-->20*0.05=1
+	TIM3_ARR = 0xC350;        //to make interrupt after 50000 tike(50000*10^-6)=0.05-->20*0.05=1
 	TIM3_CR1 |=(1<<0);
 }
 
