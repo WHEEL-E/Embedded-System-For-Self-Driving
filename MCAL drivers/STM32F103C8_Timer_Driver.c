@@ -14,7 +14,6 @@ float Count_End_Vlaue=0;
 float Puls_width=0;
 
 
-//we need move the delay function from timer2 to timer1 to relase timer2 for RTOS
 /*==============================APIs================================*/
 
 /*========================Timer2 For Delay========================*/
