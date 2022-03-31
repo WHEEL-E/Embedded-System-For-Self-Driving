@@ -1,2 +1,2 @@
-# Embedded-System-For-Autonomous-Driving
- Embedded system for autonomous driving
+# Embedded-System-For-Self-Driving
+ Embedded system for Self driving
